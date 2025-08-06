@@ -36,8 +36,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--mode", type=str, choices=["preprocess", "train", "inference", "all"], required=True,
                         help="Which step to run: preprocess | train | inference | all")
-    parser.add_argument("--train_csv", type=str, default="/kaggle/input/slideandseekclasificationlandslidedetectiondataset/Train.csv")
-    parser.add_argument("--test_csv", type=str, default="/kaggle/input/slideandseekclasificationlandslidedetectiondataset/Test.csv")
+    parser.add_argument("--train_csv", type=str, default="data/Train.csv")
+    parser.add_argument("--test_csv", type=str, default="data/Test.csv")
     parser.add_argument("--train_sentinel_dir", type=str, default="/kaggle/input/slideandseekclasificationlandslidedetectiondataset/train_data/train_data/")
     parser.add_argument("--test_sentinel_dir", type=str, default="/kaggle/input/slideandseekclasificationlandslidedetectiondataset/test_data/test_data/")
     parser.add_argument("--output_dir", type=str, default="output")

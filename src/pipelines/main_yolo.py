@@ -7,8 +7,8 @@ from src.models.infer_yolo import infer_yolo
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--mode", choices=["train", "infer"], required=True)
-    parser.add_argument("--train_csv", type=str, default="/kaggle/input/slideandseekclasificationlandslidedetectiondataset/Train.csv")
-    parser.add_argument("--test_csv", type=str, default="/kaggle/input/slideandseekclasificationlandslidedetectiondataset/Test.csv")
+    parser.add_argument("--train_csv", type=str, default="data/Train.csv")
+    parser.add_argument("--test_csv", type=str, default="data/Test.csv")
     parser.add_argument("--train_npy_dir", type=str, default="/kaggle/input/slideandseekclasificationlandslidedetectiondataset/train_data/train_data")
     parser.add_argument("--test_npy_dir", type=str, default="/kaggle/input/slideandseekclasificationlandslidedetectiondataset/test_data/test_data")
     parser.add_argument("--image_dir", type=str, default="train_data_sentinel_png")
