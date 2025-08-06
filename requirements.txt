@@ -1,0 +1,30 @@
+# Core Python
+numpy
+pandas
+scikit-learn
+scipy
+
+# Deep Learning
+torch
+torchvision
+timm
+albumentations
+fastai
+fastprogress
+
+# YOLO
+ultralytics  # for YOLO11 models
+
+# Gradient Boosting
+lightgbm
+joblib
+
+# Image Processing
+opencv-python-headless
+Pillow
+
+# Utilities
+tqdm
+pathlib
+
+
