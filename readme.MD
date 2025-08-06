@@ -1,7 +1,3 @@
-Here’s a polished **`README.md` documentation** draft tailored for your GitHub `Submission` folder, following Zindi’s two official guidelines: the **Documentation Guide** and **Code Review Checklist**. This ensures your submission is **clear, reproducible, and review-ready** for Zindi reviewers and fellow competitors.
-
----
-
 # 📝 7th Place Landslide Detection — Submission
 
 ## 🚀 Overview
@@ -156,18 +152,19 @@ Complies with Zindi guidelines on reproducibility:
 
 ---
 
-EVA Model Reproducibility Notice
-The EVA model (trained using FastAI) had reproducibility issues despite extensive seeding (deterministic training, fixed seeds for dataloaders and augmentation).
-To avoid inconsistencies, we are providing pre-trained models that can be downloaded directly from Kaggle:
-👉 Landslide Detection FastAI Models (Kaggle Notebook)
+### **EVA Model Reproducibility Notice**
 
-If you wish to skip training:
+The **EVA model** (trained using FastAI) had **reproducibility issues** despite extensive seeding (deterministic training, fixed seeds for dataloaders and augmentation).
+To avoid inconsistencies, **we are providing pre-trained models** that can be downloaded directly from Kaggle:
+👉 [Landslide Detection FastAI Models (Kaggle Notebook)](https://www.kaggle.com/code/dukekojokongo/landslide-detection-fastai)
 
-Go to the linked notebook.
+If you wish to **skip training**:
 
-Download the models*folds/*.pkl and oof/test*preds_fold*.npy files.
+- Go to the linked notebook.
+- Download the `models_folds/*.pkl` and `oof/test_preds_fold*.npy` files.
+- Place them inside `eva_setup/output/` before running `ensembles.py`.
 
-Place them inside eva_setup/output/ before running ensembles.py.
+---
 
 ## 📦 Submission Checklist (Zindi Requirements)
 
