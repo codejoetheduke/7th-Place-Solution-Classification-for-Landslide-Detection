@@ -177,3 +177,9 @@ If you wish to **skip training**:
 ---
 
 This documentation ensures your solution is **reproducible, transparent, and easy to review**, in alignment with Zindi’s official submission standards.
+
+---
+
+> _"Apologies for the delay in submitting my code. I spent a significant amount of time trying to achieve reproducibility with the EVA models trained using FastAI. Despite extensive efforts — including fixing random seeds across libraries, ensuring deterministic operations, and controlling data pipeline randomness — the training results varied slightly across runs. This was a major challenge for me and took much longer than expected. In the end, I decided to save and submit the trained EVA model weights (from my Kaggle notebook: [link](https://www.kaggle.com/code/dukekojokongo/landslide-detection-fastai)) to ensure consistency in inference. These saved models guarantee stable predictions for the evaluation stage."_
+
+---
